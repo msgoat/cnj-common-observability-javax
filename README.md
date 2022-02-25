@@ -1,6 +1,6 @@
 # cnj-common-observability-javax
 
-Provides common components to improve observability of cloud-native applications based on `Spring Boot`.
+Provides common components to improve observability of cloud-native applications based on `Java EE 8.0` / `MicroProfile`.
 
 ## Status
 
