@@ -30,7 +30,7 @@ import java.io.IOException;
  */
 @Provider
 @Priority(Priorities.USER)
-public class TracingClientResponseFilter implements ClientResponseFilter {
+public class RestTraceClientResponseFilter implements ClientResponseFilter {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(RestTraceConstants.REST_TRACE_LOGGER_NAME);
 

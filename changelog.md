@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2022-02-28
+### Added
+### Changed
+- completed work on REST message trace
+- added support for logging context information
+
 ## [0.1.0] - 2022-02-25
 ### Added
 ### Changed

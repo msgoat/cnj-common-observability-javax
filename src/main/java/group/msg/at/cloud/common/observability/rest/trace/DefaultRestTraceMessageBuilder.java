@@ -1,5 +1,6 @@
 package group.msg.at.cloud.common.observability.rest.trace;
 
+import javax.inject.Singleton;
 import javax.ws.rs.client.ClientRequestContext;
 import javax.ws.rs.client.ClientResponseContext;
 import javax.ws.rs.container.ContainerRequestContext;
@@ -12,6 +13,7 @@ import java.util.Set;
 /**
  * Default implementation of a {@code RestTraceMessageBuilder}.
  */
+@Singleton
 public class DefaultRestTraceMessageBuilder implements RestTraceMessageBuilder {
 
     private static final Set<String> CONFIDENTIAL_HEADER_NAMES = Set.of("Authorization");

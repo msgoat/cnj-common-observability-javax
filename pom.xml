@@ -9,7 +9,7 @@
     <description>Common components to improve observability of cloud-native applications based on Java EE 8/MicroProfile</description>
     <properties>
         <!-- new Maven version management -->
-        <revision>0.1.0</revision>
+        <revision>0.2.0</revision>
         <sha1></sha1>
         <changelist></changelist>
         <!-- common properties -->
@@ -18,7 +18,7 @@
         <java.version>11</java.version>
         <javaee.version>8.0</javaee.version>
         <microprofile.version>4.1</microprofile.version>
-        <slf4j.version>1.7.30</slf4j.version>
+        <slf4j.version>1.7.32</slf4j.version>
         <junit.version>5.6.0</junit.version>
         <mockito.version>3.3.3</mockito.version>
         <maven.enforcer.plugin.version>3.0.0-M2</maven.enforcer.plugin.version>
