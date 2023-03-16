@@ -2,9 +2,11 @@ version: 0.2
 
 env:
   secrets-manager:
+    NEXUS_USER: "cloudtrain-codebuild-nexus:user"
+    NEXUS_PASSWORD: "cloudtrain-codebuild-nexus:password"
+    HARBOR_USER: "cloudtrain-codebuild-harbor:user"
+    HARBOR_PASSWORD: "cloudtrain-codebuild-harbor:token"
     SONARQUBE_TOKEN: "cloudtrain-codebuild-sonarqube:token"
-    DOCKERHUB_USER: "cloudtrain-codebuild-dockerhub:docker-user"
-    DOCKERHUB_PAT: "cloudtrain-codebuild-dockerhub:docker-pat"
 
 phases:
   install:
@@ -28,3 +30,4 @@ phases:
 cache:
   paths:
     - "/root/.m2/**/*"
+    - "/root/.sonar/cache/**/*"
